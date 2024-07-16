@@ -4,11 +4,7 @@
   "description": "Core extension",
   "license": "MIT",
   "author": "Eyre Simpson",
-  "keywords": [
-    "simx",
-    "core",
-    "extension"
-  ],
+  "keywords": [],
   "dependencies": [],
   "function": [
     {
