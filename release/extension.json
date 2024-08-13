@@ -1,33 +1,52 @@
 {
   "name": "core",
   "version": "1.0.0",
+  "engine": "0.1.0",
   "description": "Core extension",
   "license": "MIT",
   "author": "Eyre Simpson",
   "keywords": [],
   "dependencies": [],
   "function": [
-    {
-      "name": "test",
-      "filename": "core.dll",
-      "description": "Core extension test function.",
-      "isAsync": false,
-      "params": [
-        {
-          "name": "a",
-          "type": "Int",
-          "description": "The first parameter"
-        },
-        {
-          "name": "b",
-          "type": "Int",
-          "description": "The second parameter"
-        }
-      ],
-      "result": {
-        "type": "Int",
-        "description": "The result of the function"
-      }
-    }
+    [
+      "test",
+      "core.dll",
+      "测试方法1",
+      "string",
+      "string a",
+      "string b"
+    ],
+    [
+      "test2",
+      "core.dll",
+      "测试方法2",
+      "string",
+      "string a",
+      "string b"
+    ],
+    [
+      "test3",
+      "core.dll",
+      "测试方法3",
+      "string",
+      "string a",
+      "string b"
+    ],
+    [
+      "test4",
+      "core.dll",
+      "测试方法4",
+      "string",
+      "string a",
+      "string b"
+    ],
+    [
+      "test5",
+      "core.dll",
+      "测试方法5",
+      "string",
+      "string a",
+      "string b"
+    ]
   ]
 }

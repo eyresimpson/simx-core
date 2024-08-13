@@ -1,0 +1,33 @@
+{
+  "name": "core",
+  "version": "1.0.0",
+  "description": "Core extension",
+  "license": "MIT",
+  "author": "Eyre Simpson",
+  "keywords": [],
+  "dependencies": [],
+  "function": [
+    {
+      "name": "test",
+      "filename": "core.dll",
+      "description": "Core extension test function.",
+      "isAsync": false,
+      "params": [
+        {
+          "name": "a",
+          "type": "Int",
+          "description": "The first parameter"
+        },
+        {
+          "name": "b",
+          "type": "Int",
+          "description": "The second parameter"
+        }
+      ],
+      "result": {
+        "type": "Int",
+        "description": "The result of the function"
+      }
+    }
+  ]
+}
